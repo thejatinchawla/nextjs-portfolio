@@ -6,8 +6,7 @@ const Macbook = () => {
       <MacbookScroll
         title={
           <span>
-            My Portfolio <br />
-            <span className="text-purple">Recent Projects.</span>
+            My Portfolio <span className="text-purple">Recent Projects.</span>
           </span>
         }
         src={`/github.png`}
