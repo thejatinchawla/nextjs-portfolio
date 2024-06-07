@@ -108,45 +108,10 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Its been a pleasure mentoring you. May you always prosper in your career, would love to see you make even larger impact in times ahead.👏👏👏",
-    name: "Viral Ruparel",
-    title: "Lead Software Engineering Manager At Alloy Automation",
-    img: "/viral.png",
-  },
-  {
-    quote:
-      "Its been a pleasure mentoring you. May you always prosper in your career, would love to see you make even larger impact in times ahead.👏👏👏",
-    name: "Viral Ruparel",
-    title: "Lead Software Engineering Manager At Alloy Automation",
-    img: "/viral.png",
-  },
-  {
-    quote:
-      "Its been a pleasure mentoring you. May you always prosper in your career, would love to see you make even larger impact in times ahead.👏👏👏",
-    name: "Viral Ruparel",
-    title: "Lead Software Engineering Manager At Alloy Automation",
-    img: "/viral.png",
-  },
-  {
-    quote:
-      "Its been a pleasure mentoring you. May you always prosper in your career, would love to see you make even larger impact in times ahead.👏👏👏",
-    name: "Viral Ruparel",
-    title: "Lead Software Engineering Manager At Alloy Automation",
-    img: "/viral.png",
-  },
-  {
-    quote:
-      "Its been a pleasure mentoring you. May you always prosper in your career, would love to see you make even larger impact in times ahead.👏👏👏",
-    name: "Viral Ruparel",
-    title: "Lead Software Engineering Manager At Alloy Automation",
-    img: "/viral.png",
-  },
-  {
-    quote:
-      "Its been a pleasure mentoring you. May you always prosper in your career, would love to see you make even larger impact in times ahead.👏👏👏",
-    name: "Viral Ruparel",
-    title: "Lead Software Engineering Manager At Alloy Automation",
-    img: "/viral.png",
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "John Doe",
+    title: "Director of AlphaStream Technologies",
+    img: "/profile.svg",
   },
 ];
 
