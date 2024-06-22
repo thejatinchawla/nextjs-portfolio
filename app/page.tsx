@@ -17,7 +17,7 @@ export default function Home() {
       <Macbook />
       <Grid />
       <RecentProjects />
-      <Clients />
+      {/* <Clients /> */}
       <Experience />
       <Footer />
     </main>

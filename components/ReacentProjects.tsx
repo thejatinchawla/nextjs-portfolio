@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGithub, FaLocationArrow } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
@@ -18,10 +18,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/thejatinkhatri"
-            >
+            <PinContainer>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -61,12 +58,14 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center gap-3">
-                  <FaGithub className="" color="#CBACF9" />
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Github
-                  </p>
-                </div>
+                <a href={item.link}>
+                  <div className="flex justify-center items-center gap-3">
+                    <FaGithub className="" color="#CBACF9" />
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Github
+                    </p>
+                  </div>
+                </a>
               </div>
             </PinContainer>
           </div>

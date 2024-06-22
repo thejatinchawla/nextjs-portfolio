@@ -76,7 +76,14 @@ export const projects = [
     title: "Land Registration Blockchain",
     des: "Immutable and transparent applica- tion based on Ethereum Blockchain to overcome the land ownership issues, User can register their property,further validated by the govt and finally, the transaction takes",
     img: "/blockchain.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists: [
+      "/re.svg",
+      "/sass.svg",
+      "/metamask.png",
+      "/solidity-l.svg",
+      "/ethereum.svg",
+      "node.svg",
+    ],
     link: "https://github.com/thejatinchawla/Land-Registration-Based-on-Blockchain",
   },
   {
@@ -84,7 +91,7 @@ export const projects = [
     title: "Packers and Movers",
     des: "Reactjs web Application where you can find many rated individual contractors. User can choose the contactors according to their rating,pricing,etc, also submit the quotation for their entire shifting,track, pay, give feedback online.",
     img: "/packersmovers.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/re.svg", "/bg.svg", "/node.svg", "mongo.svg"],
     link: "https://github.com/thejatinchawla/Packers-And-Movers-MERN",
   },
   {
@@ -92,7 +99,7 @@ export const projects = [
     title: "NodeJs : Backend Authorization",
     des: "An authentication and authorization backend server build using NodeJS, Express & MongoDB",
     img: "/nodejs.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/node.svg", "/handlebars.svg", "/jwt.png", "mongo.svg"],
     link: "https://github.com/thejatinchawla/Nodejs-backend_Auth",
   },
   {
@@ -100,17 +107,38 @@ export const projects = [
     title: "FundMe-Ethereum-Dapp",
     des: "A Ethereum based dApp which allows users to donate funds",
     img: "/blockchain.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/metamask.png",
+      "/solidity-l.svg",
+      "/ethereum.svg",
+    ],
+    link: "https://github.com/thejatinchawla/FundMe-Ethereum-Dapp",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia felis id luctus condimentum. Phasellus blandit justo non varius rutrum. Integer enim elit, accumsan quis consequat vehicula, congue in nisl. Cras egestas at leo id ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec.      ",
     name: "John Doe",
-    title: "Director of AlphaStream Technologies",
+    title: "Director of XYZ",
+    img: "/profile.svg",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia felis id luctus condimentum. Phasellus blandit justo non varius rutrum. Integer enim elit, accumsan quis consequat vehicula, congue in nisl. Cras egestas at leo id ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec.      ",
+    name: "John Doe",
+    title: "Director of XYZ",
+    img: "/profile.svg",
+  },
+  {
+    quote:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacinia felis id luctus condimentum. Phasellus blandit justo non varius rutrum. Integer enim elit, accumsan quis consequat vehicula, congue in nisl. Cras egestas at leo id ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec.      ",
+    name: "John Doe",
+    title: "Director of XYZ",
     img: "/profile.svg",
   },
 ];
